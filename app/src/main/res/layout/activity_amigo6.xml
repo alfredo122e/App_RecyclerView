@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".Amigo6">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="155dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="26dp"
+        android:background="#FFFFFF"
+        android:fontFamily="cursive"
+        android:text="Azucena Coreas."
+        android:textColor="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="266dp"
+        android:layout_height="336dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/image12" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="45dp"
+        android:background="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="Antes de empezar, les diré una frase que siempre me digo. Sé tú, e intenta ser feliz, pero sobre todo, sé tú.  Hay tres palabras que me definen y esas son extrovertida, apasionada , y soñadora.  Extrovertida me considero una persona así, porque soy muy entusiasta, me gusta hacer amigos, amo sentir emociones nueva. Soy una persona muy apasionada , siempre suelo ponerle pasión a todo, en todas las cosas que me involucró siempre va esa chispa que me caracteriza,  soy demasiado soñadora, y tiendo a soñar bastante en grande y cuando me propongo un sueño establezco una meta y un objetivo hasta que lo cumplo, Me llamo Azucena Coreas tengo 21 años de edad, estudio Psicología, y mercadeo Estoy a punto de graduarme de presentadora de Tv. Suelo aprovechar mucho el tiempo."
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="11.5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
